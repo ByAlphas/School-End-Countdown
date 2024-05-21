@@ -9,7 +9,7 @@ Bu proje, okulların kapanmasına ne kadar süre kaldığını gösteren bir ger
 - Tema tercihlerinin tarayıcıda saklanması.
 - Tatil günlerinin ve Cuma günlerinin hariç tutulmasıyla kalan gerçek okul günlerinin hesaplanması.
 
-## Kullanılan Teknolojiler
+## Kullanılan Diller
 
 - HTML
 - CSS
