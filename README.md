@@ -1,4 +1,4 @@
-# Okul Kapanış Geri Sayım Uygulaması
+# Okulların Kapanacağını Gösteren Geri Sayım Projesi
 
 Bu proje, okulların kapanmasına ne kadar süre kaldığını gösteren bir geri sayım uygulamasıdır. Kullanıcılar, temayı beyaz ve siyah arasında geçirebilir ve bu tercihleri tarayıcıda saklanır. Uygulama, tatil günlerini ve belirli haftalık tatil günlerini çıkararak gerçek okul günlerini hesaplar.
 
