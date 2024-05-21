@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background 0.5s, color 0.5s;
+}
+
+body.dark-theme {
+    background: #121212;
+    color: #bbb;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.5s;
+}
+
+body.dark-theme .container {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#countdown div {
+    font-size: 2em;
+}
+
+#countdown span {
+    font-weight: bold;
+    display: block;
+}
+
+.theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.theme-toggle img {
+    width: 30px;
+    height: 30px;
+    filter: invert(0); /* Beyaz temada siyah ikon */
+}
+
+body.dark-theme .theme-toggle img {
+    filter: invert(1); /* Siyah temada beyaz ikon */
+}
